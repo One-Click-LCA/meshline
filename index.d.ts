@@ -30,7 +30,6 @@ export class MeshLineMaterial extends THREE.ShaderMaterial {
     dashRatio?: number,
     useDash?: number,
     visibility?: number,
-    alphaTest?: number,
     repeat?: THREE.Vector2,
   });
 
@@ -48,7 +47,6 @@ export class MeshLineMaterial extends THREE.ShaderMaterial {
   dashRatio: number;
   useDesh: number;
   visibility: number;
-  alphaTest: number;
   repeat: THREE.Vector2;
 }
 
